@@ -11,7 +11,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var drawnItems = L.featureGroup().addTo(map);
 
 var tableData = L.layerGroup().addTo(map);
-var url = "https://gisdb.xyz/sql?q=";
+var url = "https://gisdb.xyz/sql?q="; //was "178.128.228.240:4000/sql?q="
 // change the Query below by replacing lab_7_name with your table name
 var sqlQuery = "SELECT * FROM tahoma";
 function addPopup(feature, layer) {
